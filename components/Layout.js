@@ -12,9 +12,9 @@ export default function Layout({ title, children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex min-h-screen flex-col justify-between">
+      <div className="flex flex-col justify-between min-h-screen">
         <header>
-          <nav className="flex h-12 justify-between shadow-md items-center px-4">
+          <nav className="flex items-center justify-between h-12 px-4 shadow-md">
             <Link className="text-lg font-bold" href="/">
               Amazona
             </Link>
@@ -28,8 +28,8 @@ export default function Layout({ title, children }) {
             </div>
           </nav>
         </header>
-        <main className="container m-auto mt-4 px-4">{children}</main>
-        <footer className="flex justify-center items-center h-10 shadow-inner">
+        <main className="container px-4 m-auto mt-4">{children}</main>
+        <footer className="flex items-center justify-center h-10 shadow-inner">
           Copyright &#169; 2023 Amazona
         </footer>
       </div>
