@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import data from "@/utils/data";
-import { Store } from "@/utils/store";
+import { Store } from "@/utils/Store";
 
 export default function ProductScreen() {
   const { state, dispatch } = useContext(Store);
