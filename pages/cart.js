@@ -30,7 +30,7 @@ function CartScreen() {
       <h1 className="mb-4 text-xl">Shopping</h1>
       {cartItems.length === 0 ? (
         <div>
-          Cat is empty.&nbsp;
+          Cart is empty.&nbsp;
           <Link href="/" className="text-amber-600">
             Go shopping!
           </Link>

@@ -17,8 +17,7 @@ body {
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  @apply text-blue-600 no-underline hover:text-blue-800;
 }
 
 .card {
@@ -27,6 +26,10 @@ a {
 
 .primary-button {
   @apply px-4 py-2 rounded shadow outline-none bg-amber-300 hover:bg-amber-400 active:bg-amber-500;
+}
+
+.dropdown-link {
+  @apply flex p-2 hover:bg-gray-200;
 }
 
 input,
