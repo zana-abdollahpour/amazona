@@ -36,6 +36,14 @@ a {
   @apply flex p-2 hover:bg-gray-200;
 }
 
+.alert-error {
+  @apply p-3 my-3 text-red-700 bg-red-100 rounded-lg;
+}
+
+.alert-success {
+  @apply p-3 my-3 text-green-700 bg-green-100 rounded-lg;
+}
+
 input,
 select,
 textarea {
