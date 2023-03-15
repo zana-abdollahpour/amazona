@@ -8,7 +8,7 @@ import Cookies from "js-cookie";
 
 import Layout from "@/components/Layout";
 import CheckoutWizard from "@/components/CheckoutWizard";
-import { Store } from "@/utils/Store";
+import { Store } from "@/utils/store";
 import { getError } from "@/utils/error";
 
 export default function PlaceOrderScreen() {

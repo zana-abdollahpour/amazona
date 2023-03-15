@@ -6,7 +6,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 import Layout from "@/components/Layout";
-import { Store } from "@/utils/Store";
+import { Store } from "@/utils/store";
 import db from "@/utils/db";
 import Product from "@/models/Product";
 

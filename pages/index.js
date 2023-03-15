@@ -5,7 +5,7 @@ import Layout from "@/components/Layout";
 import ProductItem from "@/components/ProductItem";
 import Product from "@/models/Product";
 import db from "@/utils/db";
-import { Store } from "@/utils/Store";
+import { Store } from "@/utils/store";
 import { useContext } from "react";
 
 export async function getServerSideProps() {

@@ -5,7 +5,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import { XCircleIcon } from "@heroicons/react/24/outline";
 
-import { Store } from "@/utils/Store";
+import { Store } from "@/utils/store";
 import Layout from "@/components/Layout";
 import { useRouter } from "next/router";
 import dynamic from "next/dynamic";
