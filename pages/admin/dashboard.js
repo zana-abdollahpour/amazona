@@ -92,19 +92,13 @@ function AdminDashboardScreen() {
                 </Link>
               </li>
               <li>
-                <Link href="/admin/orders" className="font-bold">
-                  Orders
-                </Link>
+                <Link href="/admin/orders">Orders</Link>
               </li>
               <li>
-                <Link href="/admin/products" className="font-bold">
-                  Products
-                </Link>
+                <Link href="/admin/products">Products</Link>
               </li>
               <li>
-                <Link href="/admin/users" className="font-bold">
-                  Users
-                </Link>
+                <Link href="/admin/users">Users</Link>
               </li>
             </ul>
           </div>
