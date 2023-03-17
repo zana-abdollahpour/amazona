@@ -2,8 +2,8 @@ import React, { useEffect, useReducer } from "react";
 import axios from "axios";
 import Link from "next/link";
 
-import { getError } from "@/utils/error";
-import Layout from "@/components/Layout";
+import { getError } from "../utils/error";
+import Layout from "../components/Layout";
 
 function reducer(state, action) {
   switch (action.type) {

@@ -6,8 +6,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { toast } from "react-toastify";
 
-import Layout from "@/components/Layout";
-import { getError } from "@/utils/error";
+import Layout from "../../components/Layout";
+import { getError } from "../../utils/error";
 
 function reducer(state, action) {
   switch (action.type) {

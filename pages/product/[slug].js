@@ -5,10 +5,10 @@ import Image from "next/image";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-import Layout from "@/components/Layout";
-import { Store } from "@/utils/store";
-import db from "@/utils/db";
-import Product from "@/models/Product";
+import Layout from "../../components/Layout";
+import { Store } from "../../utils/Store";
+import db from "../../utils/db";
+import Product from "../../models/Product";
 
 export async function getServerSideProps(context) {
   const { params } = context;

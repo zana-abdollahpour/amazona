@@ -6,10 +6,10 @@ import { toast } from "react-toastify";
 import axios from "axios";
 import Cookies from "js-cookie";
 
-import Layout from "@/components/Layout";
-import CheckoutWizard from "@/components/CheckoutWizard";
-import { Store } from "@/utils/store";
-import { getError } from "@/utils/error";
+import Layout from "../components/Layout";
+import CheckoutWizard from "../components/CheckoutWizard";
+import { Store } from "../utils/Store";
+import { getError } from "../utils/error";
 
 export default function PlaceOrderScreen() {
   const { state, dispatch } = useContext(Store);

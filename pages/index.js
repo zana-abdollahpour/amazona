@@ -1,11 +1,11 @@
 import axios from "axios";
 import { toast } from "react-toastify";
 
-import Layout from "@/components/Layout";
-import ProductItem from "@/components/ProductItem";
-import Product from "@/models/Product";
-import db from "@/utils/db";
-import { Store } from "@/utils/store";
+import Layout from "../components/Layout";
+import ProductItem from "../components/ProductItem";
+import Product from "../models/Product";
+import db from "../utils/db";
+import { Store } from "../utils/Store";
 import { useContext } from "react";
 
 export async function getServerSideProps() {

@@ -4,8 +4,8 @@ import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 import axios from "axios";
 
-import { getError } from "@/utils/error";
-import Layout from "@/components/Layout";
+import { getError } from "../utils/error";
+import Layout from "../components/Layout";
 
 function ProfileScreen() {
   const { data: session } = useSession();

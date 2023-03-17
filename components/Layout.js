@@ -6,7 +6,7 @@ import { ToastContainer } from "react-toastify";
 import { Menu } from "@headlessui/react";
 import "react-toastify/dist/ReactToastify.css";
 
-import { Store } from "@/utils/store";
+import { Store } from "../utils/Store";
 import DropdownLink from "./DropdownLink";
 import Cookies from "js-cookie";
 

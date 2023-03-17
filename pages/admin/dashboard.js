@@ -12,8 +12,8 @@ import {
   Legend,
 } from "chart.js";
 
-import Layout from "@/components/Layout";
-import { getError } from "@/utils/error";
+import Layout from "../../components/Layout";
+import { getError } from "../../utils/Store";
 
 ChartJS.register(
   CategoryScale,
