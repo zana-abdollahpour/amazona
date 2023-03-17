@@ -13,7 +13,7 @@ import {
 } from "chart.js";
 
 import Layout from "../../components/Layout";
-import { getError } from "../../utils/Store";
+import { getError } from "../../utils/error";
 
 ChartJS.register(
   CategoryScale,
