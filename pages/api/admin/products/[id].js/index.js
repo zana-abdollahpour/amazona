@@ -20,12 +20,14 @@ const handler = async (req, res) => {
     return res.status(400).send({ message: "Method not allowed" });
   }
 };
+
 const getHandler = async (req, res) => {
   await db.connect();
   const product = await Product.findById(req.query.id);
   await db.disconnect();
   res.send(product);
 };
+
 const putHandler = async (req, res) => {
   await db.connect();
   const product = await Product.findById(req.query.id);
@@ -46,6 +48,7 @@ const putHandler = async (req, res) => {
     res.status(404).send({ message: "Product not found" });
   }
 };
+
 const deleteHandler = async (req, res) => {
   await db.connect();
   const product = await Product.findById(req.query.id);
